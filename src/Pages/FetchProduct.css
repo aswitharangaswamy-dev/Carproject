@@ -1,0 +1,94 @@
+
+/* Main Container */
+.fetch-product-container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    overflow-x: auto;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Heading */
+.fetch-product-heading {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Product Table */
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* Table Heading */
+.product-table thead tr {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Table Header */
+.product-table th {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Table Data */
+.product-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Product Price */
+.product-price {
+    font-weight: bold;
+    color: green;
+}
+
+/* Product Image */
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Edit Button */
+.edit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 15px;
+}
+
+/* Edit Button Hover */
+.edit-button:hover {
+    background-color: #218838;
+}
+
+/* Delete Button */
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 15px;
+}
+
+/* Delete Button Hover */
+.delete-button:hover {
+    background-color: #c82333;
+}

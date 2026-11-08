@@ -1,0 +1,297 @@
+.home {
+  font-family: 'Playfair Display', Georgia, serif;
+  background-color: #0b0f14;
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 600px;
+  background:
+    linear-gradient(90deg, rgba(11, 15, 20, 0.92) 0%, rgba(11, 15, 20, 0.45) 100%),
+    url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1600")
+    center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 90px 8%;
+  color: #ffffff;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.hero-content {
+  max-width: 680px;
+}
+
+.hero-tag,
+.section-label {
+  color: #e9a23b;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.hero-content h1 {
+  font-size: clamp(38px, 5.5vw, 62px);
+  margin: 15px 0 20px;
+  line-height: 1.18;
+  font-weight: 800;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.hero-quote {
+  font-style: italic;
+  font-size: 20px;
+  color: #e9a23b;
+  margin: 15px 0;
+  border-left: 3px solid #e9a23b;
+  padding-left: 15px;
+  line-height: 1.5;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.hero-content span {
+  display: block;
+  line-height: 1.8;
+  color: #d1d5db;
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #e9a23b;
+  color: #0b0f14;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 4px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #ffffff;
+  color: #0b0f14;
+}
+
+.hero-btn-secondary {
+  display: inline-block;
+  padding: 14px 28px;
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #e9a23b;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 4px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.hero-btn-secondary:hover {
+  background: #e9a23b;
+  color: #0b0f14;
+}
+
+/* Featured Sections with Quotes and Images */
+.quote-feature-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+  padding: 90px 8%;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.quote-feature-section.speed-section {
+  background: #111720;
+}
+
+.quote-feature-section.elegance-section {
+  background: #0d1219;
+}
+
+.quote-feature-section.offroad-section {
+  background: #131b24;
+}
+
+.quote-feature-section.reverse {
+  direction: rtl;
+}
+
+.quote-feature-section.reverse .quote-text-container {
+  direction: ltr;
+}
+
+.quote-feature-section.reverse .quote-img-container {
+  direction: ltr;
+}
+
+.quote-text-container h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.featured-quote {
+  font-size: 21px;
+  font-style: italic;
+  color: #e9a23b;
+  line-height: 1.6;
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 3px solid #e9a23b;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.featured-quote cite {
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+  color: #cbd5e1;
+  margin-top: 8px;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.quote-desc {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #cbd5e1;
+  margin-bottom: 25px;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.section-link {
+  color: #e9a23b;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: 'Playfair Display', Georgia, serif;
+  transition: 0.3s;
+}
+
+.section-link:hover {
+  color: #ffffff;
+  padding-left: 6px;
+}
+
+.quote-img-container img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.4s ease;
+}
+
+.quote-img-container img:hover {
+  transform: scale(1.02);
+}
+
+/* Quotes Gallery Section */
+.quotes-gallery-section {
+  padding: 90px 8%;
+  background: #090d12;
+  text-align: center;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.gallery-header h2 {
+  font-size: clamp(30px, 4vw, 44px);
+  margin: 12px 0 16px;
+  color: #ffffff;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.gallery-header span {
+  color: #94a3b8;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 50px;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.quotes-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  text-align: left;
+}
+
+.quote-card {
+  background: #111822;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #1f2937;
+  transition: transform 0.3s ease, border-color 0.3s;
+}
+
+.quote-card:hover {
+  transform: translateY(-8px);
+  border-color: #e9a23b;
+}
+
+.quote-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.quote-card-body {
+  padding: 20px;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.card-quote {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.6;
+  color: #e2e8f0;
+  margin-bottom: 15px;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.quote-card-body h4 {
+  color: #e9a23b;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+@media (max-width: 950px) {
+  .quotes-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quote-feature-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 60px 6%;
+  }
+
+  .quote-feature-section.reverse {
+    direction: ltr;
+  }
+}
+
+@media (max-width: 600px) {
+  .quotes-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quote-img-container img {
+    height: 250px;
+  }
+}

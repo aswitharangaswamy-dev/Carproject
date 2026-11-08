@@ -1,0 +1,109 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 7%;
+  background: #0f151d;
+  border-bottom: 1px solid #1f2937;
+  font-family: 'Playfair Display', Georgia, serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.logo span {
+  color: #e9a23b;
+  font-weight: 900;
+}
+
+.navbar {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.navbar a {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Playfair Display', Georgia, serif;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.navbar a:hover {
+  color: #e9a23b;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cart-badge-btn {
+  background: #1e293b;
+  color: #e9a23b;
+  border: 1px solid #e9a23b;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Playfair Display', Georgia, serif;
+  transition: 0.3s;
+}
+
+.cart-badge-btn:hover {
+  background: #e9a23b;
+  color: #0f151d;
+}
+
+.header-btn {
+  background: #e9a23b;
+  color: #0f151d;
+  padding: 10px 22px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: 'Playfair Display', Georgia, serif;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease;
+}
+
+.header-btn:hover {
+  background: #ffffff;
+  color: #0f151d;
+}
+
+@media (max-width: 900px) {
+  .header {
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 15px 5%;
+  }
+
+  .navbar {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .header-actions {
+    gap: 10px;
+  }
+}
